@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+
+#calculator {
+    width: 100%;
+    background-color: black;
+}
+
+#screen {
+    background-color: lightgrey;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 80px;
+
+}
+
+.buttons {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    flex: 1 25%;
+    padding: 15px;
+    font-size: 26px;
+}
+
+.num {
+    background-color: grey;
+}
+
+.btn-operator {
+    background-color: orange;
+}
+
+.btn-equals {
+    background-color: green;
+}
+
+#reset {
+    background-color: red;
+}
+
+#btn-equals {
+    background-color: green;
+}
